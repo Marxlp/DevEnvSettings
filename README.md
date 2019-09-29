@@ -1,6 +1,6 @@
 DevEnvSettings
 ==============
-This repo include instructions and configuration files to configure the development environment.
+This repo includes instructions and configuration files to configure the development environment.
 
 Contents
 ========

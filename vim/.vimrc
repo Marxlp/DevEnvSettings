@@ -1,4 +1,5 @@
-colorscheme delek 
+"set molokai
+colorscheme molokai 
 " set encoding
 set encoding=utf-8
 " show line number
@@ -12,6 +13,8 @@ set shiftwidth=4
 set autoindent
 " the space indented will be decided smart
 set smartindent
+" highlight search
+set hls
 "split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -44,7 +47,7 @@ call plug#end()
 " default configuration file path "
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 "打开vim时不再询问是否加载ycm_extra_conf.py配置"
-let g:ycm_confirm_extra_conf=0
+"let g:ycm_confirm_extra_conf=0
 set completeopt=longest,menu
 "python path
 let g:ycm_path_to_python_interpreter='/usr/bin/python'

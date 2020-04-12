@@ -4,6 +4,6 @@ This repo includes instructions and configuration files to configure the develop
 
 Contents
 ========
-1. Vim
-2. Tmux
+1. [Vim](vim)
+2. [Tmux](tmux)
 

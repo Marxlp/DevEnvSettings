@@ -14,7 +14,7 @@ colorpath=${HOME}/.vim/colors
 if [ ! -d ${colorpath} ]
 then
 	printf "creating %s/%s/%s\n" ${HOME} .vim colors
-	mkdir ${colorpath}
+	mkdir -p ${colorpath}
 fi
 printf "copy color file to ${colorpath}\n"
 cp vim/colors/* ${colorpath}
